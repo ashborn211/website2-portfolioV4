@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+    }
+
+header{
+    width: 1900px;
+    height: 100px;
+    background-color: rgb(40, 40, 40) ;
+}
+
+main{
+    position: relative;
+    width: 1900px;
+    height: 1100px;
+    background-color: #434343;
+}
+
+footer{
+    width: 1900px;
+    height: 100px;
+    background-color:rgb(40, 40, 40);
+}
+
+.contactinfo{
+  float: left;
+  color: whitesmoke;
+  padding: 25px;
+  font-size: xx-large;
+}
+
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+
+  li{
+  float: left;
+  }
+  
+
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 24px 60px;
+	text-decoration: none;
+  }
+
+ 
+  li a:hover {
+	background-color: grey;
+  }
+
+.bloktekst{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+.bloktekst2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  color: whitesmoke;
+  font-size: x-large   ;
+}
+
+.profilefoto{
+    float: right;
+    padding: 25px;
+}
+
+.schoolfoto{
+  float: right;
+  padding: 25px;
+}
+
+table, th, td {
+  border:1px solid black;
+  height: 35px;
+  margin-top: 60px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  column-gap: 70px;
+  row-gap: 70px;
+  padding: 10px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 100px;
+  font-size: xx-large;
+}
+
+.grid-container > div{
+  background-color: grey;
+  padding: 20px;
+  text-align: left;
+}
+
+.download1{
+  float: left;
+  margin-left: -435px;
+  margin-top: 11px;
+  background-color: grey;
+  color: black;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 396px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 26px;
+  }
+
+  .download2{
+    float: left;
+    margin-left: 10px;
+    margin-top: 95px;
+    background-color: grey;
+    color: black;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 396px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 26px;
+    }
+
+.download3{
+  float: left;
+  background-color: gray;
+  color: whitesmoke;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 396px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 26px;
+    margin-top: 152px;
+    margin-left: 218px;
+}
+
+.download4{
+  float: right;
+  margin-right: 460px;
+  margin-top: 11px;
+  background-color: grey;
+  color: black;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 396px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 26px;
+  }
+
+  .download5{
+  float: left;
+  background-color: gray;
+  color: whitesmoke;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 396px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 26px;
+      margin-top: 152px;
+    margin-left: 218px;
+
+}
+
+.githublink{
+  float: left;
+  background-color: gray;
+  color: whitesmoke;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 396px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 26px;
+}
+
+.figmaafbeelding{
+  float: left;
+  margin-top: 170px;
+}
+
+.figmaafbeelding2{
+  float: left;
+  margin-left: 443px;
+  margin-top: 2px;
+}
+
+
+  .flex-container {
+    display: flex;
+    background-color: #434343;  
+    justify-content: space-around;
+    justify-items: center;
+    height: 300px;
+    margin-top: 100px;
+    }
+  
+  .flex-container > div {
+    background-color: #434343;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+
+
+  
+
+
+/*deze stuk is voor de grafiek*/
+
+.container{
+  min-height: 100vh;
+  background: #434343;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  height: 540px;
+  width: 600px;
+}
+
+.content div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.content div .image{
+  background: #efefef;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 5px 10px #999;
+}
+
+.content div .image img{
+  height: 60px;
+  transition: transform 0.3s;
+}
+.content div .image img:hover{
+  transform: scale(1.05);
+}
+.content div .bar{
+  height: 80px;
+  width: 450px;
+  background: #3c3c3c;
+  border-radius: 40px;
+  position: relative;
+  margin-left: 20px;
+  overflow: hidden;
+  box-shadow: 2px 5px 10px #999;
+}
+
+.content div .progress{
+  height: 80px;
+  border-radius: 40px;
+  background: linear-gradient(to right, var(--clr1), var(--clr2));
+}
+
+.content div .bar h1{
+  position: absolute;
+  right: 10px;
+  color: var(--clr1);
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.content div .bar h2{
+  position: absolute;
+  left: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+}
+/*hieboven is de grafiek*/
